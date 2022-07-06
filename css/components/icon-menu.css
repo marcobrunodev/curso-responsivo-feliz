@@ -1,0 +1,9 @@
+.icon-menu {
+  background-image: url(../../img/icon-menu.png);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  text-indent: -9999px;
+  width: 60px;
+  height: 60px;
+  image-rendering: pixelated;
+}
