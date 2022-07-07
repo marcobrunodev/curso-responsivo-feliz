@@ -26,6 +26,12 @@
     .main-header .main-action {
         display: flex;
     }
+
+    .main-header .icon-close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
 }
 
 /* 980 - até aonde dá pra cima */
