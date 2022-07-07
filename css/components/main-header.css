@@ -9,7 +9,22 @@
 /* 0 - 980 */
 @media (max-width: 980px) {
     .main-header > .menu {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #000;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        padding: 16px;
+    }
+
+    .main-header .main-action {
+        display: flex;
     }
 }
 
