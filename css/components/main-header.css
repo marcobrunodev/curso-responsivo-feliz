@@ -6,8 +6,16 @@
     padding: 10px 20px;
 }
 
+/* 0 - 980 */
 @media (max-width: 980px) {
     .main-header > .menu {
+        display: none;
+    }
+}
+
+/* 980 - até aonde dá pra cima */
+@media (min-width: 980px) {
+    .main-header > .icon-menu {
         display: none;
     }
 }
